@@ -1,8 +1,6 @@
 package com.mohamedhedhili.recyclerviewcardview;
 
-import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -14,7 +12,7 @@ import com.bumptech.glide.Glide;
  * Created by mohamedHedhili on 02/12/2016.
  */
 
-public class MyViewHolder extends RecyclerView.ViewHolder  implements View.OnClickListener{
+public class MyViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
     private TextView textViewView;
     private ImageView imageView;

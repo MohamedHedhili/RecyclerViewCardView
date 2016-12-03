@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
         // then create a MyAdapter, provide our list of cartoons
       // this adapter will be used to fill out our recycletrview
         recyclerView.setAdapter(new MyAdapter(Cartoons));
+
+
     }
 
     private void AddCartoon()
